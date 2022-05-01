@@ -13,10 +13,10 @@ from tkinter import (
     RAISED,
     messagebox,
 )
-from eth_wallet.configuration import (
+from eth_wallet.cli.configuration import (
     Configuration,
 )
-from eth_wallet.api import (
+from eth_wallet.cli.api import (
     WalletAPI,
 )
 from eth_wallet.ui.page import (

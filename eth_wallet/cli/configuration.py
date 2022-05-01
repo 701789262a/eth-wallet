@@ -1,6 +1,6 @@
 import os
 import yaml
-from eth_wallet.utils import (
+from eth_wallet.cli.utils import (
     create_directory,
     is_file,
 )

@@ -1,8 +1,7 @@
-import time
-from eth_wallet.infura import (
+from eth_wallet.cli.infura import (
     Infura,
 )
-from eth_wallet.utils import (
+from eth_wallet.cli.utils import (
     get_abi_json,
 )
 

@@ -2,7 +2,7 @@ from web3 import (
     Web3,
     HTTPProvider,
 )
-from eth_wallet.exceptions import (
+from eth_wallet.cli.exceptions import (
     InfuraErrorException
 )
 

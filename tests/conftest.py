@@ -1,4 +1,4 @@
-from eth_wallet.configuration import (
+from eth_wallet.cli.configuration import (
     Configuration,
 )
 

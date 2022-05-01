@@ -1,21 +1,21 @@
 from web3 import Web3
 import time
-from eth_wallet.wallet import (
+from wallet import (
     Wallet
 )
-from eth_wallet.transaction import (
+from transaction import (
     Transaction,
 )
-from eth_wallet.infura import (
+from infura import (
     Infura,
 )
-from eth_wallet.exceptions import (
+from exceptions import (
     InsufficientFundsException,
     InvalidValueException,
     InsufficientERC20FundsException,
     ERC20NotExistsException,
 )
-from eth_wallet.contract import (
+from contract import (
     Contract,
 )
 from web3.exceptions import (
@@ -26,7 +26,7 @@ from decimal import (
 )
 import os
 import yaml
-from eth_wallet.utils import (
+from utils import (
     create_directory,
     is_file,
 )

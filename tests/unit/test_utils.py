@@ -1,4 +1,4 @@
-from eth_wallet.utils import (
+from eth_wallet.cli.utils import (
     get_abi_json,
     create_directory,
 )

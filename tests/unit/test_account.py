@@ -5,10 +5,10 @@ from eth_keys import (
 from eth_utils import (
     decode_hex,
 )
-from eth_wallet.utils import (
+from eth_wallet.cli.utils import (
     public_key_to_keccak256
 )
-from eth_wallet.wallet import (
+from eth_wallet.cli.wallet import (
     Wallet
 )
 from web3 import(

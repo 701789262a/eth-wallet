@@ -2,13 +2,13 @@ import click
 from eth_wallet.cli.utils_cli import (
     get_api,
 )
-from eth_wallet.configuration import (
+from eth_wallet.cli.configuration import (
     Configuration,
 )
 from web3.exceptions import (
     InvalidAddress,
 )
-from eth_wallet.exceptions import (
+from eth_wallet.cli.exceptions import (
     InfuraErrorException,
 )
 

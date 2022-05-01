@@ -1,4 +1,4 @@
-from eth_wallet.api import(
+from eth_wallet.cli.api import(
     WalletAPI,
 )
 from tests.conftest import (

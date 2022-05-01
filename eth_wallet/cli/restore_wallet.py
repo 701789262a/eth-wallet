@@ -3,7 +3,7 @@ import getpass
 from eth_wallet.cli.utils_cli import (
     get_api,
 )
-from eth_wallet.configuration import (
+from eth_wallet.cli.configuration import (
     Configuration,
 )
 

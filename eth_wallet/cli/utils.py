@@ -54,7 +54,7 @@ def get_abi_json():
     :return:
     """
     root_dir = os.path.dirname(os.path.abspath(__file__))
-    abi_path = os.path.join(root_dir, 'erc20', 'abi.json')
+    abi_path = os.path.join(root_dir, '../erc20', 'abi.json')
     with open(abi_path) as f:
         fitcoin = json.load(f)
     return fitcoin
