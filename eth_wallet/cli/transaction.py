@@ -1,7 +1,7 @@
 from eth_account import (
     Account,
 )
-from eth_wallet.cli.utils import (
+from utils import (
     public_key_to_keccak256,
 )
 from eth_utils import (
