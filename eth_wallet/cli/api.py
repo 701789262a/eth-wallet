@@ -44,7 +44,7 @@ class WalletAPI:
         """
         wallet = Wallet(configuration).create(password)
         wallet.save_keystore(password)
-
+        print(wallet.get_address(), wallet.get_mnemonic())
         return wallet
 
     @staticmethod
