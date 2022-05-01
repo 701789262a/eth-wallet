@@ -5,13 +5,13 @@ from eth_account import (
 from eth_keys import (
     keys,
 )
-from eth_wallet.cli.utils import (
+from utils import (
     create_directory,
 )
-from eth_wallet.cli.infura import (
+from infura import (
     Infura,
 )
-from eth_wallet.cli.exceptions import (
+from exceptions import (
     InvalidPasswordException,
 )
 from mnemonic import (
