@@ -1,9 +1,9 @@
 import click
 import getpass
-from eth_wallet.cli.utils_cli import (
+from utils_cli import (
     get_api,
 )
-from eth_wallet.cli.configuration import (
+from configuration import (
     Configuration,
 )
 from eth_wallet.cli.exceptions import (

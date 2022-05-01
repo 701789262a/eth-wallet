@@ -1,7 +1,7 @@
-from eth_wallet.cli.infura import (
+from infura import (
     Infura,
 )
-from eth_wallet.cli.utils import (
+from utils import (
     get_abi_json,
 )
 

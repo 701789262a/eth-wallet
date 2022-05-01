@@ -1,8 +1,8 @@
 import click
-from eth_wallet.cli.new_wallet import (
+from new_wallet import (
     new_wallet,
 )
-from eth_wallet.cli.get_wallet import (
+from get_wallet import (
     get_wallet,
 )
 from eth_wallet.cli.reveal_seed import (
